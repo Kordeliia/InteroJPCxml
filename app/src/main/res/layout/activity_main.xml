@@ -28,7 +28,7 @@
                 android:maxLength="@integer/name_max_length"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
+        <!--<com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilSurname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,14 +43,18 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName|textCapWords"
                 android:maxLength="@integer/name_max_length"/>
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>-->
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/etSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="@dimen/common_padding_default">
-            <com.google.android.material.textfield.TextInputLayout
+            <!--<com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilHeight"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -68,8 +72,12 @@
                     android:maxLength="@integer/height_max_length"
                     android:imeOptions="actionNext"
                     android:nextFocusForward="@id/etPlaceBirth"/>
-            </com.google.android.material.textfield.TextInputLayout>
-
+            </com.google.android.material.textfield.TextInputLayout>-->
+            <androidx.compose.ui.platform.ComposeView
+                android:id="@+id/etHeight"
+                android:layout_width="0dp"
+                android:layout_height="84dp"
+                android:layout_weight="40"/>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
