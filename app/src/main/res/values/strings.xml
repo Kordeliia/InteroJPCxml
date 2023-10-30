@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Form XML</string>
+    <string name = "hint_name">Name</string>
+    <string name = "help_required">Required</string>
+    <string name = "hint_surname">Surname</string>
+    <string name = "hint_height">Height</string>
+    <string name = "help_min_height">Minimum 50cm</string>
+    <string name = "hint_birth_date">Birth date</string>
+    <string name = "hint_country">Country</string>
+    <string name = "hint_birth_place">Birth place</string>
+    <string name = "hint_notes">Notes</string>
+    <string name = "dialog_title">Data collected</string>
+    <string name = "dialog_ok">Clear</string>
+    <string name = "dialog_cancel">Cancel</string>
+    <string name = "help_min_height_valid">Must be equal to or greater than 50cm</string>
+</resources>
